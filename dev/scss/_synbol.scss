@@ -1,0 +1,14 @@
+.m {
+   background: $gradient_supersoft;
+   max-width: 100%;
+}
+
+.symbol {
+   display: flex;
+   justify-content: center;
+   position: relative;
+
+   &__img {
+      // position: absolute;
+   }
+}
