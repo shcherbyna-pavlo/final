@@ -51,15 +51,17 @@
       line-height: 30px;
       display: none;
 
-      &:hover {
+      &:before {
          content: '';
          position: absolute;
-         left: -60px;
+         left: 0;
+         top: 0;
          width: 100%;
          height: 50px;
-         background-image: $gradient_red-text;
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
+         background: rebeccapurple;
+         // background-image: $gradient_red-text;
+         // -webkit-background-clip: text;
+         // -webkit-text-fill-color: transparent;
       }
 
       h2 {

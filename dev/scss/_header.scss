@@ -13,7 +13,20 @@
     justify-content: space-between;
 
     a {
+        position: relative;
         color: $basic_white;
+        z-index: 3;
+        padding: 5px 7px;
+
+        &:active {
+            background: $accent;
+            border-radius: 8px;
+        }
+
+        &:focus {
+            background: $accent;
+            border-radius: 8px;
+        }
     }
     
     &__logo {
@@ -38,7 +51,6 @@
         font-size: 12px;
         line-height: 15px;
         letter-spacing: 1px;
-        padding: 5px 7px;
     }
     
     &__fw-reg {
