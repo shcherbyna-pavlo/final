@@ -1,0 +1,20 @@
+.line-cards {
+    &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    &__list-li {
+        width: calc(100 / 3);
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__photo {
+        width: 92px;
+    }
+}

@@ -5,28 +5,38 @@
 
 .symbol {
    position: relative;
-   display: flex;
-   justify-content: center;
-   position: relative;
    color: $basic_white;
+
+   @media (min-width:768px) {
+      display: flex;
+      justify-content: center;
+   }
 
    &__text-pos {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
+      text-align: center;
    }
 
    &__btn-pos {
       position: absolute;
       bottom: 30px;
       left: 50%;
-      transform: translate(-50%,-50%);
-      z-index: 3;
+      transform: translate(-50%);
+      // z-index: 3;
    }
 
    &__img {
-      width: 524px;
+      position: relative;
+      top: 0;
+      left: -90px;
+      min-width: 524px;
+      
+      @media (min-width:768px) {
+         left: 0;
+      }
    }
 }
 

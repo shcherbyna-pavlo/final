@@ -19,12 +19,16 @@
 
 #drop {
     display: none;
-
+    
     &:checked {
         ~ .head__menu{
             @media (max-width:767px) {
                 display: block;
             }
+        }
+
+        &:checked + .drop {
+            background: $grey_separator;
         }
     }
 }
@@ -62,7 +66,6 @@
 
     &:before {
         top: 50%;
-        // transform: translateY(-50%);
     }
 
     span {
@@ -85,14 +88,18 @@
     }
     
     &__info {
-        &-contact {
-            float: right;
-        }
-        padding: 13px 0;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        max-width: 100%;
         background: $head__mobile-bg;
+        
+        &-contact {
+            flex-grow: 1;
+            text-align: end;
+        }
 
         @media (min-width:768px){
-            display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
@@ -160,6 +167,7 @@
         right: 8px;
         min-width: 359px;
         background: $head__menu-mobile-bg;
+        padding: 15px 0 0 0;
 
         @media (min-width:768px) {
             position: static;
@@ -173,7 +181,7 @@
     }
     
     &__menu-list {
-        padding: 0 5px 15px;
+        padding: 0px 5px 15px;
         // margin: 15px 0;
         // background: gray;
 
@@ -197,7 +205,8 @@
         padding: 7px 0;
         border-radius: 12px;
         text-align: center;
-        background: gray;
+        background: $grey_bg;
+        color: $active_Regular;
 
         @media (min-width:768px) {
             padding: 0;

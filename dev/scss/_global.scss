@@ -74,6 +74,17 @@ h4 {
 
 .hero {
     font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    
+    @media (min-width:768px) {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+.symbol__text-pos{
+    font-weight: 700;
     font-size: 38px;
     line-height: 46px;
 }

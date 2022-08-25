@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?v7or71');
-  src:  url('../fonts/icomoon.eot?v7or71#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?v7or71') format('truetype'),
-    url('../fonts/icomoon.woff?v7or71') format('woff'),
-    url('../fonts/icomoon.svg?v7or71#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?4rpnmz');
+  src:  url('../fonts/icomoon.eot?4rpnmz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4rpnmz') format('truetype'),
+    url('../fonts/icomoon.woff?4rpnmz') format('woff'),
+    url('../fonts/icomoon.svg?4rpnmz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,164 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Arrow:before {
-  content: "\e900";
+.icon-judicial .path1:before {
+  content: "\e903";
+  color: rgb(255, 255, 255);
 }
-.icon-Scroll:before {
-  content: "\e901";
+.icon-judicial .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-judicial .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-judicial .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-judicial .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-protection .path1:before {
+  content: "\e908";
+  color: rgb(255, 255, 255);
+}
+.icon-protection .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-protection .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path1:before {
+  content: "\e90b";
+  color: rgb(255, 255, 255);
+}
+.icon-building .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path3:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path4:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path5:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path6:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path7:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path8:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path9:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path10:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-building .path11:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-structuring .path1:before {
+  content: "\e916";
+  color: rgb(255, 255, 255);
+}
+.icon-structuring .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-structuring .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-structuring .path4:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-structuring .path5:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-comprehensive .path1:before {
+  content: "\e91b";
+  color: rgb(255, 255, 255);
+}
+.icon-comprehensive .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-comprehensive .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-comprehensive .path4:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-comprehensive .path5:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-it .path1:before {
+  content: "\e920";
+  color: rgb(255, 255, 255);
+}
+.icon-it .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-it .path3:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-it .path4:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
 }
 .icon-fb:before {
   content: "\e902";
