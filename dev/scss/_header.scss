@@ -27,20 +27,38 @@
             }
         }
 
-        &:checked + .drop {
-            background: $grey_separator;
+        + .drop {
+        
+            span {
+                display: none;
+            }
+
+            &:after {
+                top: 50%;
+                transform: translateY(-50%) rotate(45deg);
+                background: #EC6F5D;
+            }
+
+            &:before {
+                top: 50%;
+                transform: translateY(-50%) rotate(-45deg);
+                background: #EC6F5D;
+            } 
         }
+
+
     }
 }
 
 .drop {
     float: right;
     position: relative;
-    text-align: end;
+    // text-align: end;
     width: 32px;
     height: 32px;
     background: transparent;
     margin-top: 13px;
+    z-index: 2;
 
     @media (min-width:768px) {
         display: none;
@@ -113,7 +131,6 @@
         line-height: 15px;
         letter-spacing: 1px;
         display: inline-block;
-        margin-right: -4px;
     }
 
     &__lang-link {
@@ -163,30 +180,33 @@
 
     &__menu {
         position: absolute;
-        top: 100%;
-        right: 8px;
-        min-width: 359px;
+        top: 50%;
+        right: 2%;
+        width: 96%;
         background: $head__menu-mobile-bg;
-        padding: 15px 0 0 0;
+        padding: 75px 0 0 0;
+        border-radius: 12px 12px 0px 0px;
+        // margin: 0 auto;
 
         @media (min-width:768px) {
             position: static;
             background: transparent;
             display: flex;
             flex-direction: row;
-            // margin: 16px -15px 0 0;
+            margin:0;
             padding: 14px 0 0 0;
             justify-content: end;
+            width: 100%;
         }
     }
     
     &__menu-list {
         padding: 0px 5px 15px;
+        border-radius: 12px;
         // margin: 15px 0;
         // background: gray;
 
         @media (min-width:768px){
-            padding: 0;
             padding: 0 0 0 15px;
         }
     }
@@ -216,7 +236,7 @@
             position: relative;
             color: $head__menu-link;
             padding-bottom: 4px;
-            overflow: hidden;
+            // overflow: hidden;
         }
 
         &:before {

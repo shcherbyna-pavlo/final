@@ -1,17 +1,36 @@
 .line-cards {
-    &__list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    flex-direction: column;
+
+    &__hero {
+        margin: 10px 0 0 0;
+    }
+    
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 0;
+        margin: 0 -30px;
+    }
+
+    &__title {
+        padding: 30px 0 15px 0;
+        color: $line-cards__title;
+    }
+
+    &__description {
+        color: $line-cards__description;
+    }
 
     &__list-li {
-        width: calc(100 / 3);
+        width: calc(100% / 3);
+        padding: 30px 30px;
+        text-align: start;
     }
 
     &__card {
-        display: flex;
-        flex-direction: column;
     }
 
     &__photo {
