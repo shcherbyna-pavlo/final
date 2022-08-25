@@ -15,35 +15,37 @@
             <!-- <div class="header"> -->
                 <div class="container">
                     <div class="head">
-                        <div class="head__logo">
-                            <img src="images/logo.png" alt="logo">
-                        </div>
                         <div class="head__text">
                             <ul class="head__info">
-                                <li class="head__info-lang"><a class="head__active" href="#">УК</a></li>
-                                <li class="head__info-lang"><a class="head__active" href="#">РУ</a></li>
-                                <li class="head__info-lang"><a class="head__active" href="#">EN</a></li>
-                                <li><span class="head__point"></span></li>
-                                <li class="head__fw-reg"><a href="#">Kyiv, Mechnikova str, 14/1</a></li>
-                                <li><span class="head__point"></span></li>
-                                <li><a href="#">0800 211 927</a></li>
-                                <li><span class="head__point"></span></li>
-                                <li><a href="#"><span class="icon-fb head__fb"></span></a></li>
+                                <li class="head__info-lang"><a class="head__lang-link" href="#">УК</a></li>
+                                <li class="head__info-lang"><a class="head__lang-link" href="#">РУ</a></li>
+                                <li class="head__info-lang"><a class="head__lang-link" href="#">EN</a></li>
+                                <li class="head__info-contact mobile-none"><span class="head__point"></span></li>
+                                <li class="head__info-contact mobile-none"><a class="head__contact-link head__contact-link--fw-reg" href="#"><address>Kyiv, Mechnikova str, 14/1</address></a></li>
+                                <li class="head__info-contact mobile-none"><span class="head__point"></span></li>
+                                <li class="head__info-contact"><a class="head__contact-link" href="tel:0800211927">0800 211 927</a></li>
+                                <li class="head__info-contact mobile-none"><span class="head__point"></span></li>
+                                <li class="head__info-contact mobile-none"><a class="head__contact-link head__fb" href="#"><span class="icon-fb"></span></a></li>
                             </ul>
-                            <ul class="head__menu">
-                                <li class="head__menu-list"><a href="#">about us</a></li>
-                                <li class="head__menu-list"><a href="#">services</a></li>
-                                <li class="head__menu-list"><a href="#">team</a></li>
-                                <li class="head__menu-list"><a href="#">publications</a></li>
-                                <li class="head__menu-list"><a href="#">contact</a></li>
+                            <input id="drop" type="checkbox">
+                            <label for="drop" class="drop"><span>m</span></label>
+                            <ul class="head__menu mobile-none">
+                                <li class="head__menu-list"><a class="head__menu-link" href="#">about us</a></li>
+                                <li class="head__menu-list"><a class="head__menu-link" href="#">services</a></li>
+                                <li class="head__menu-list"><a class="head__menu-link" href="#">team</a></li>
+                                <li class="head__menu-list"><a class="head__menu-link" href="#">publications</a></li>
+                                <li class="head__menu-list"><a class="head__menu-link" href="#">contact</a></li>
                             </ul>
+                        </div>
+                        <div class="head__logo">
+                            <a class="head__logo-link" href="#"><img src="images/logo.png" alt="logo"></a>
                         </div>
                     </div>
                 </div>
             <!-- </div> -->
         </header>
         <main id="main">
-           <div class="main-body">
+           <div class="main-grad">
             <div class="container">
                 <div class="symbol">
                     <div class="symbol__img">
@@ -52,14 +54,14 @@
                     <span class="hero symbol__text-pos">you legal solutions provider</span>
                     <a href="#" class="btn symbol__btn-pos"><span class="icon-Scroll"></span></a>
                 </div>
-                <div class="line2">
+                <!-- <div class="line2">
                     <ul class="line2__list hero">
-                        <li class="line2__list-li"><a class="line2__link" href="#tab_01">Consistent</a></li>
-                        <li class="line2__list-li"><a class="line2__link" href="#tab_02">Customer oriented</a></li>
-                        <li class="line2__list-li"><a class="line2__link" href="#tab_03">Innovative</a></li>
-                        <li class="line2__list-li"><a class="line2__link" href="#tab_04">Business oriented</a></li>
+                        <li class="line2__list-li"><a class="line2__link" href="#">Consistent</a></li>
+                        <li class="line2__list-li"><a class="line2__link" href="#">Customer oriented</a></li>
+                        <li class="line2__list-li"><a class="line2__link" href="#">Innovative</a></li>
+                        <li class="line2__list-li"><a class="line2__link" href="#">Business oriented</a></li>
                     </ul>
-                    <div id="tab_01" class="line2__block-text">
+                    <div class="line2__block-text">
                         <h2>We turn the idea of legal services</h2>
                         <p>
                             Consolidating many years of experience and practice, the 
@@ -69,7 +71,7 @@
                             sea in Ukraine.
                         </p>
                     </div>
-                    <div id="tab_01" class="line2__block-text">
+                    <div class="line2__block-text">
                         <h2>We turn the idea of legal services</h2>
                         <p>
                             Consolidating many years of experience and practice, the 
@@ -79,7 +81,7 @@
                             sea in Ukraine.
                         </p>
                     </div>
-                    <div id="tab_02" class="line2__block-text">
+                    <div class="line2__block-text">
                         <h2>We turn the idea of </h2>
                         <p>
                             Consolidating many years of experience and practice, the 
@@ -87,7 +89,7 @@
                             achieve
                         </p>
                     </div>
-                    <div id="tab_03" class="line2__block-text">
+                    <div class="line2__block-text">
                         <h2>We turn the idea of legal services</h2>
                         <p>
                             Consolidating many years of experience and practice, the 
@@ -96,7 +98,7 @@
                             
                         </p>
                     </div>
-                    <div id="tab_04" class="line2__block-text">
+                    <div class="line2__block-text">
                         <h2>We turn </h2>
                         <p>
                             the 
@@ -105,6 +107,56 @@
                             Many of them form the practice of applying the law of the 
                             sea in Ukraine.
                         </p>
+                    </div>
+                </div> -->
+                <div class="menu-check">
+                    <div class="menu-check__list">
+                        <input id="cons" name="chek" type="radio" checked>
+                        <label class="hero menu-check__click" for="cons">Consistent</label>
+                        <input id="cust" name="chek" type="radio">
+                        <label class="hero menu-check__click" for="cust">Customer oriented</label>
+                        <input id="innov" name="chek" type="radio">
+                        <label class="hero menu-check__click" for="innov">Innovative</label>
+                        <input id="busin" name="chek" type="radio">
+                        <label class="hero menu-check__click" for="busin">Business oriented</label>
+                    </div>
+                    <div class="menu-check__body">
+                        <div class="cons radio">
+                            <h2 class="menu-check__title">We turn the idea of legal services</h2>
+                            <p>
+                                Consolidating many years of experience and practice, the 
+                                company's lawyers accompany complex projects and 
+                                achieve a number of important decisions for the industry. 
+                                Many of them form the practice of applying the law of the 
+                                sea in Ukraine.
+                            </p>
+                        </div>
+                        <div class="cust radio">
+                            <h2 class="menu-check__title">We turn the idea of legal services</h2>
+                            <p>
+                                Consolidating many years of experience and practice, the 
+                                company's lawyers accompany complex projects and 
+                                achieve a number of important decisions for the industry. 
+                                Many of them form the practice of applying the law of the 
+                                sea in Ukraine.
+                            </p>
+                        </div>
+                        <div class="innov radio">
+                            <h2 class="menu-check__title">We turn the idea of </h2>
+                            <p>
+                                Consolidating many years of experience and practice, the 
+                                company's lawyers accompany complex projects and 
+                                achieve
+                            </p>
+                        </div>
+                        <div class="busin radio">
+                            <h2 class="menu-check__title">We turn the idea of legal services</h2>
+                            <p>
+                                Consolidating many years of experience and practice, the 
+                                company's lawyers accompany complex projects and 
+                                achieve a number of important decisions for the industry. 
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="line-cards">

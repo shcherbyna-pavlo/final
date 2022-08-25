@@ -1,9 +1,10 @@
-.main-body {
+.main-grad {
    background: $gradient_supersoft;
    max-width: 100%;
 }
 
 .symbol {
+   position: relative;
    display: flex;
    justify-content: center;
    position: relative;
@@ -23,5 +24,15 @@
       transform: translate(-50%,-50%);
       z-index: 3;
    }
+
+   &__img {
+      width: 524px;
+   }
+}
+
+.icon-Scroll:before {
+   content: "\e901";
+   color: $symbol__btn;
+   background: #fff;
 }
 

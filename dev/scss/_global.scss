@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-    max-width: 1560px;
+    max-width: 1350px;
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 0 15px;
 }
 
 img {
@@ -46,15 +46,20 @@ ul {
 }
 
 h2,
-h2,
+h3,
 h4 {
     font-weight: 700;
     margin: 0;
 }
 
 h2 {
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (min-width:768px) {
+        font-size: 30px;
+        line-height: 37px;
+    }
 }
 
 h3 {
@@ -79,4 +84,7 @@ h4 {
     line-height: 17px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+address {
+    font-style: normal
 }
